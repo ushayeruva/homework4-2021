@@ -31,6 +31,7 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  background-color: #DDDDDD;
 
   /*Req 1*/
 }
@@ -106,6 +107,11 @@ tbody {
 tbody tr:nth-child(even) {
   background-color: #D1D1D1;
 }
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(0,0,0,0.5);
+}
+
 
 /*Req 8*/
 footer{
